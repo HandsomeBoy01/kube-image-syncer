@@ -3,7 +3,8 @@ default:
   push_images: true
 
 kubernetes:
-  version: v1.23.6
+  version: v1.29.3
 
 images:
   - docker.io/nginx:latest
+  - docker.io/easzlab/kubeasz:3.6.4
