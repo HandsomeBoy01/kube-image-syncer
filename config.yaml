@@ -7,3 +7,4 @@ kubernetes:
 
 images:
   - docker.io/nginx:latest
+  - docker.io/jeessy/ddns-go:latest
