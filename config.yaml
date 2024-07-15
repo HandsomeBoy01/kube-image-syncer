@@ -1,9 +1,10 @@
 default:
-  push_kubernetes: true
+  push_kubernetes: false
   push_images: true
 
 kubernetes:
-  version: v1.23.6
+  version: v1.27.9
 
 images:
   - docker.io/nginx:latest
+  - registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
