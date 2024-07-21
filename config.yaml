@@ -6,5 +6,5 @@ kubernetes:
   version: v1.27.9
 
 images:
-  - docker.io/nginx:latest
+  - docker.elastic.co/elasticsearch/elasticsearch:7.17.16
   #- registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
