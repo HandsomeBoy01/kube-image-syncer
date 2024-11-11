@@ -6,5 +6,14 @@ kubernetes:
   version: v1.27.9
 
 images:
-  - docker.io/nginx:latest
-  #- registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+- registry.k8s.io/sig-storage/csi-attacher:v4.5.1
+- registry.k8s.io/sig-storage/csi-resizer:v1.10.1
+- registry.k8s.io/sig-storage/livenessprobe:v2.12.0
+- registry.k8s.io/sig-storage/csi-provisioner:v4.0.1
+- registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2
+- registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.1
+- registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0
+- gcr.io/cloud-provider-vsphere/csi/release/driver:v3.3.0
+- gcr.io/cloud-provider-vsphere/csi/release/syncer:v3.3.0
+
+
