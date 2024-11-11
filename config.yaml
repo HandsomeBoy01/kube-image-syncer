@@ -6,5 +6,4 @@ kubernetes:
   version: v1.27.9
 
 images:
-  - docker.io/nginx:latest
-  #- registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+- registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.29.0
