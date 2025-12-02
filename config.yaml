@@ -6,5 +6,5 @@ kubernetes:
   version: v1.27.9
 
 images:
-  - docker.io/prom/memcached-exporter:v0.14.2
+  - docker.io/mcr.microsoft.com/mssql/server:2022-latest
   #- registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
